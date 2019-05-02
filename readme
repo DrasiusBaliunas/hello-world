@@ -1,2 +1,22 @@
 readme
 edited-readme
+another test
+
+git clone [address] (1)
+git checkout -b [branch] (2)
+-- CHANGES --
+git diff --word-diff (4)
+$ git commit -a -m [comment] (5)
+$ git push origin [branch] (6)
+
+1. Clone our fork of the project locally
+
+2. Create a descriptive topic branch
+
+3. Make our change to the code
+
+4. Check that the change is good
+
+5. Commit our change to the topic branch
+
+6. Push our new topic branch back up to our GitHub fork
